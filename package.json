@@ -1,0 +1,16 @@
+{
+  "name": "perfdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run test/performance/todois.performance.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "artillery": "^1.7.2",
+    "artillery-plugin-uuid": "0.0.1"
+  }
+}
